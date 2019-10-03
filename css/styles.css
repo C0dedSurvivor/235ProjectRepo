@@ -1,0 +1,95 @@
+header{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    color:darkblue;
+    background-image: url("../media/fire-tunnel.png");
+    background-size: 100%;
+    box-shadow: inset 0 0 0 100vmax rgba(128, 128, 128, 0.1);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu li {
+    width: 25%;
+    text-align: center;
+    border: 2px solid rgb(75, 75, 75);
+}
+
+.menu a {
+    display: block;
+    background: gray;
+    padding: 6px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: transform 0.1s ease-in, background-color 0.5s linear;
+}
+
+.menu a:hover {
+	background: red;
+    color: yellow;
+    transform:scale(1.075);
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: yellow;
+}
+
+a:focus{
+    color: orange;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color: orangered;
+}
+
+h1{
+    font-size: 72px;
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 1em 0;
+    font-size: 30px;
+}
+
+#information{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+#information img{
+    padding: 2rem;
+}
+
+#information p{
+    padding: 3rem;
+    font-size: 24px;
+    align-self: center;
+}
