@@ -47,8 +47,8 @@ The buttons for both the runner and devil will be easy to understand icons for q
 The runners need to learn what the devils can do and when and try to predict when abilities will come out to be in an advantageous position. The devils need to learn what each of their abilities can do and how to group effect for the best results.
 
 ## VII. Screenshots
-![A mockup of the main game.](https://github.com/C0dedSurvivor/235ProjectRepo/media/gamescreen.jpg "A mockup of the main game.")
-![A mockup of the player controller.](https://github.com/C0dedSurvivor/235ProjectRepo/media/gamepad.jpg "A mockup of the player controller.")
+![A mockup of the main game.](https://github.com/C0dedSurvivor/235ProjectRepo/blob/master/media/gamescreen.jpg "A mockup of the main game.")
+![A mockup of the player controller.](https://github.com/C0dedSurvivor/235ProjectRepo/blob/master/media/gamepad.jpg "A mockup of the player controller.")
 
 ## VIII. Libraries
 I will use Pixi.js for rendering and Deepstream.IO for the multiplayer syncing.
